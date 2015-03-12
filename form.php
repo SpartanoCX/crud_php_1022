@@ -72,7 +72,7 @@ if(@isset($_GET["msg"]))
 <?php } ?>
 <form method="post">
 <div id="form">
-<h2>INFORME OS DADOS</h2>
+<h2>ENVIE SEU FEEDBACK</h2>
 <label>Nome</label>
 <input type="text" name="Nome" value="<?php echo @$ralt["cNome"];?>">
 </br>
