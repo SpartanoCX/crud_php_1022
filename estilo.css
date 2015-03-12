@@ -1,0 +1,38 @@
+body{
+	background-color:green;
+	color:white;
+	font-size:18px;
+	
+}
+#form
+{
+	background-color:red;
+	width:60%;
+
+	margin:auto;
+	padding-left:10px;
+}
+#form label
+{
+	width:20%;
+	float:left;
+}
+#form h2
+{
+color:yellow;
+}
+#botao
+{
+	background-color:blue;
+	color:white;
+	font-weight:bold;
+	border-radius:3px;
+	border:0px;
+}
+.msg
+{
+	width:30%;
+	background-color:orange;
+	margin:auto;
+	text-align:center;
+}
