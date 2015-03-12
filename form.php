@@ -6,7 +6,7 @@ if(isset($_GET["excluir"]))
 {
 	$del = "delete from comentarios where idComent='$_GET[excluir]'";
 	mysqli_query($conexao, $del) or die(mysqli_error());
-	header("location: form.php?msg=excluido com sucesso");
+	header("location: form.php?msg=removido com sucesso");
 }
 
 /* SELECAO DO COMENTARIO A ALTERAR */
@@ -53,7 +53,7 @@ if (@$_POST["acao"]=="Alterar")
 
 	//echo $update;
 	mysqli_query($conexao, $update) or die(mysqli_error());
-	header("location: form.php?msg=alterado com sucesso");
+	header("location: form.php?msg=atualizado com sucesso");
 }
 
 
